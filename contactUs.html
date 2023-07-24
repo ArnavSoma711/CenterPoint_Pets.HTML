@@ -1,0 +1,80 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="style.css">
+        <title>ContactUs.html</title>
+        <title>CenterPointPets.html</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>CenterPoint Pets</h1>
+        </header>
+    <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="pets.html">Our Pets</a></li>
+        <li><a href="shoppingCart.html">Cart</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+    </ul>
+</nav>
+<center>
+    <fieldset><legend>Contact Us</legend>
+<form>
+    <label for="fn">Enter Your Full Name:</label><br>
+    <input type="text" id="fn"><br><br>
+    <label for="el">Enter Your Email:</label><br>
+    <input type="email" id="el"><br><br>
+    <label for="pn">Enter Your Phone#:</label><br>
+    <input type="number" id="pn"><br><br>
+    <label for="db">Enter Your DOB:</label><br>
+    <input type="date" id="db"><br><br>
+    <label for="pd">Enter Your Password</label><br>
+    <input type="password" id="pd"><br><br>
+    <label for="rpd">Re-enter Your Password</label><br>
+    <input type="password"id="rpd" ><br><br>
+    <button onclick="sub()">Submit</button>
+</form></fieldset></center>
+<script>
+    function sub(){
+        var a=document.getElementById("pd").value 
+        var b=document.getElementById("rpd").value
+         
+        if (a==b)
+        alert("You have completed your form.")
+
+        else
+        alert("Your password does not match. Please re-enter it.")
+    }
+</script>
+<section>
+
+</section>
+<footer><div class="footer">
+    <div class="col3">
+        <h4>CenterPoint Pets</h4>
+        <p>Download our app for Android and iOS phones</p>
+        <img src="https://www.seekpng.com/png/detail/20-202991_get-it-on-google-play-logo-png-vector.png" width="200px" height="50px">
+    </div>
+    <div class="col1">
+        <h4>Useful Links</h4>
+        <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Terms & Conditions</li>
+        </ul>
+    </div>
+    <div class="col1">
+        <h4>Follow Us On</h4>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+            <li>Instagram</li> </ul>
+    </div>
+</div></footer>
+</body>
+</html>

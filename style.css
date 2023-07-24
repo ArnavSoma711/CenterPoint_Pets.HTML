@@ -1,0 +1,140 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:lightgrey ;
+}
+header{
+background-color:rgb(150, 215, 255);
+text-align:center;
+padding:20px;
+}
+h1{
+    font-family: 'Shadows Into Light', cursive;
+}
+nav ul li{
+    display:inline;
+    list-style-type:none;
+    margin:17px;
+    text-decoration:none;
+    font-size:20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bold;
+    color:black;
+}
+nav{
+background-color:#59c2ff ;
+padding:5px;
+display:flex;
+justify-content:space-around;
+}
+nav ul a{
+    text-decoration:none;
+
+}
+a:link{
+
+}
+a:hover{
+    background-color:white;
+    color:#59c2ff;
+}
+a:active{
+
+}
+a:visited{
+
+}
+.footer{
+height:200px;
+background-color:black;
+color:white;
+display:flex;
+justify-content: space-around;
+
+}
+.col2, .col1 li{
+    list-style-type:none;
+}
+fieldset{
+margin:100px;
+background-color:rgba(119, 210, 255, 0.301);
+}
+.parent{
+display:flex;
+justify-content: space-around;
+flex-wrap:wrap;
+/* width:100%; */
+
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    /* width:100%; */
+    }
+    .child1{
+        flex:50%;
+
+    }
+    .child2{
+        flex:50%;
+        text-align:center;
+        margin:150px auto;
+        
+}
+    .kid1{
+        flex:50%;
+       
+    }
+    .kid2{
+        flex:50%;
+        text-align:center;
+        margin:100px auto;
+    }
+    /* -----------------------------products page---------------------------- */
+    .pets-container{
+        width:80%;
+        margin:100px auto;
+    }
+    .pets-page{
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+    }
+    .col{
+        padding:10px;
+    }
+    .col img{
+     width:200px;
+     height:200px;
+    }
+    p{
+        font-family: 'Shadows Into Light', cursive;
+    }
+    /* -------------------------------------------------cart------------------------------------------- */
+
+   .container2{
+    width:1080px;
+    margin:50px auto;
+   }
+   .container2 table{
+    width:100%;
+    table-layout:fixed;
+   }
+   .input{
+    width:30px;
+   }
+   .cart-info{
+    display:flex;
+   
+   }
+   th{
+    text-align:left;
+   }
+   
